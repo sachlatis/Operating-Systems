@@ -2,7 +2,7 @@
 
 This repository contains the programming exercises and the theory assignments for ECE NTUA course Operating Systems
 ## First Programming Exercise
-Initially the father process creates the process C1, which reads a message from a .txt file and then the process C1 encrypt the message and saves it to another .txt file.
+Initially the father process creates the process C1, which reads a message from a .txt file and then the process C1 encrypts the message and saves it to another .txt file.
 Then, the father process creates the process C2, which decrypts the saved message using the Caesars encryption algorithm
 ## Second Programming Exercise
 Firstly the father process creates n child processes Ci. In this exercise we implement the father-child, child-father and user-father and user-child communication through the usage of signals. Moreover we use timers through the usage of alarm.
